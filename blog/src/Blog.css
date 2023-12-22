@@ -1,0 +1,53 @@
+h1 {
+    font-size: 2.5rem;
+    background-color: #3a0ca3;
+    margin:0;
+    padding: 1rem;
+    color:white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+ul {
+    width:1200px;
+    margin:auto;
+    list-style: none;
+    padding:3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+article:not(.post) > header > figure {
+    margin:0;
+}
+
+article:not(.post) > header > h2 {
+    font-size: 1.3rem;
+    font-family: Poppins, sans-serif;
+    color:#7209b7;
+    min-height: 4rem;
+}
+
+article:not(.post) > section p {
+    font-size: 0.9rem;
+}
+
+article:not(.post) > section p:first-of-type {
+    font-weight: 100;
+    color: #3a0ca3;
+    min-height:2.5rem;
+}
+
+article:not(.post) > section p:last-of-type {
+    min-height: 7rem;
+}
+
+article:not(.post) > footer button {
+    background-color: #4361ee;
+    border:none;
+    padding:0.5rem 1.5rem;
+    color:white;
+}
